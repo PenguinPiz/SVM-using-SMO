@@ -190,13 +190,14 @@ public:
     print1DVector(alphas);
   }
 
-  void print1DVector(const vector<double> &vec) {
-
-    cout << "[";
-    for (size_t i = 0; i < vec.size() - 1; i++) {
-      cout << vec[i] << ", ";
+  void print1DVector(const vector<double> &vec) const {
+    cout << '[';
+    const char* sep = "";
+    for (double v : vec) {
+      cout << sep << v;
+      sep = ", ";
     }
-    cout << vec[vec.size() - 1] << "]" << endl;
+    cout << "]\n";
   }
   //--------------------Methods-------------------------------
 };
