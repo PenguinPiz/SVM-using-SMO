@@ -56,7 +56,7 @@ private:
   }
 
 public:
-  /**
+  /*
    *
    * this method performs a simplified version of Sequential Minimal
    * Optimization
