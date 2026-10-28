@@ -59,9 +59,6 @@ public:
    *               where x are same dimension vectors with training data
    * @param labels : tha individual classes (-1, +1) of the support_vectors
    *
-   * @return is a vector(2) consisting of
-   *         vector(i) that holds values of a
-   *         vector(1) that holds the values of b
    */
 
   simpified_SMO(const vector<vector<double>> &Support_vectors,
