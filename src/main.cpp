@@ -42,7 +42,7 @@ private:
    *
    * @param x : function variable
    *
-   * /
+   */
   double evaluate_svm_function(const vector<double> &x) {
 
     double sum = 0.0;
