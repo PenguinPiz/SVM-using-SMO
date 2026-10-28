@@ -34,6 +34,13 @@ private:
     return result;
   }
 
+  /**
+   *
+   * This method uses the dotProduct as a Kernel function as a simpler more
+   * understandable function, this can be changen easily without any harm to
+   * the algorithm
+   *
+   */
   double evaluate_svm_function(const vector<double> &x) {
 
     double sum = 0.0;
