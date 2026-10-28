@@ -40,7 +40,9 @@ private:
    * understandable function, this can be changen easily without any harm to
    * the algorithm
    *
-   */
+   * @param x : function variable
+   *
+   * /
   double evaluate_svm_function(const vector<double> &x) {
 
     double sum = 0.0;
