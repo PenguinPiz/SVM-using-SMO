@@ -1,6 +1,6 @@
 CMakeFiles/MyProject.dir/src/main.cpp.o: \
  /home/penguinpiz/Projects/SMO/src/main.cpp /usr/include/stdc-predef.h \
- /usr/include/c++/16/iostream /usr/include/c++/16/bits/requires_hosted.h \
+ /usr/include/c++/16/fstream /usr/include/c++/16/bits/requires_hosted.h \
  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -8,9 +8,9 @@ CMakeFiles/MyProject.dir/src/main.cpp.o: \
  /usr/include/sys/cdefs.h /usr/include/bits/long-double.h \
  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/cpu_defines.h \
- /usr/include/c++/16/pstl/pstl_config.h /usr/include/c++/16/ostream \
- /usr/include/c++/16/bits/ostream.h /usr/include/c++/16/ios \
- /usr/include/c++/16/iosfwd /usr/include/c++/16/bits/stringfwd.h \
+ /usr/include/c++/16/pstl/pstl_config.h /usr/include/c++/16/istream \
+ /usr/include/c++/16/ios /usr/include/c++/16/iosfwd \
+ /usr/include/c++/16/bits/stringfwd.h \
  /usr/include/c++/16/bits/memoryfwd.h /usr/include/c++/16/bits/version.h \
  /usr/include/c++/16/bits/postypes.h /usr/include/c++/16/cwchar \
  /usr/include/wchar.h /usr/include/bits/libc-header-start.h \
@@ -137,11 +137,15 @@ CMakeFiles/MyProject.dir/src/main.cpp.o: \
  /usr/include/c++/16/bits/streambuf_iterator.h \
  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/ctype_inline.h \
  /usr/include/c++/16/bits/locale_facets.tcc \
- /usr/include/c++/16/bits/basic_ios.tcc \
+ /usr/include/c++/16/bits/basic_ios.tcc /usr/include/c++/16/ostream \
+ /usr/include/c++/16/bits/ostream.h \
  /usr/include/c++/16/bits/ostream_print.h \
- /usr/include/c++/16/bits/ostream.tcc /usr/include/c++/16/istream \
- /usr/include/c++/16/bits/istream.tcc /usr/include/c++/16/random \
- /usr/include/c++/16/cmath /usr/include/math.h \
+ /usr/include/c++/16/bits/ostream.tcc \
+ /usr/include/c++/16/bits/istream.tcc /usr/include/c++/16/bits/codecvt.h \
+ /usr/include/c++/16/x86_64-pc-linux-gnu/bits/basic_file.h \
+ /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++io.h \
+ /usr/include/c++/16/bits/fstream.tcc /usr/include/c++/16/iostream \
+ /usr/include/c++/16/random /usr/include/c++/16/cmath /usr/include/math.h \
  /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
  /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
  /usr/include/bits/fp-fast.h /usr/include/bits/mathcalls-macros.h \
