@@ -2,6 +2,7 @@
 #include <iostream>
 #include <random>
 #include <vector>
+#include <cmath>
 
 using namespace std;
 
@@ -218,13 +219,14 @@ public:
    * Simple print function for 1 Dimensional Vector object
    *
    */
-  void printVector(const vector<double> &vec) {
-
-    cout << "[";
-    for (size_t i = 0; i < vec.size() - 1; i++) {
-      cout << vec[i] << ", ";
+   void printVector(const vector<double> &vec) const {
+    cout << '[';
+    const char* sep = "";
+    for (double v : vec) {
+      cout << sep << v;
+      sep = ", ";
     }
-    cout << vec[vec.size() - 1] << "]" << endl;
+    cout << "]\n";
   }
   //--------------------Methods-------------------------------
 };
