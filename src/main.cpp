@@ -153,7 +153,7 @@ public:
             alphas[j] = L;
           }
 
-          if (abs(alphas[j] - alpha_j_old) < 10e-5)
+          if (abs(alphas[j] - alpha_j_old) < 1e-5)
             continue;
 
           alphas[i] =
