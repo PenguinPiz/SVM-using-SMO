@@ -258,7 +258,7 @@ public:
 bool readFromFile(vector<vector<double>> &X, vector<double> &y,
                   vector<vector<double>> &validationSet) {
 
-  ifstream file("../data.txt");
+  ifstream file("../../data.txt");
 
   if (!file.is_open()) {
 
@@ -270,21 +270,32 @@ bool readFromFile(vector<vector<double>> &X, vector<double> &y,
   int n;
   file >> n;
 
+  cout << "n : " << n << endl;
+
   for (int i = 0; i < n; i++) {
     double x, y;
     file >> x;
     file >> y;
+
+    cout << "X : " << x << endl;
+    cout << "Y : " << y << endl;
+
     X.push_back({x, y});
   }
 
   for (int i = 0; i < n; i++) {
     int label;
     file >> label;
+
+    cout << "label : " << label << endl;
+
     y.push_back(label);
   }
 
   int newDataSize;
   file >> newDataSize;
+
+  cout << newDataSize << endl;
 
   for (int i = 0; i < newDataSize; i++) {
     double x, y;
@@ -319,6 +330,7 @@ int main() {
     testing_set = {{-6, 6},   {1, -1}, {1.7, -2.6},
                    {2, -2.5}, {2, -4}, {2.8, -3.5}};
   }
+
   // Calling contructor to initialize parameters
   simpified_SMO svm(X, y, 1, 0.001, 20);
 
